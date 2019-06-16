@@ -1,0 +1,34 @@
+{
+  "name": "pr-bot",
+  "description": "Creates pull requests from e-mails on BitBucket",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": {
+    "name": "Semih Onay",
+    "email": "semih.onay@bilgiedu.net"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "start:debug": "node --inspect app.js",
+    "test": "mocha ./tests/*.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "imap": "^0.8.19",
+    "mailparser": "^2.7.1"
+  },
+  "devDependencies": {
+    "@types/chai":"^4.1.7",
+    "@types/dotenv": "^6.1.1",
+    "@types/imap":"^0.8.29",
+    "@types/mailparser":"^2.4.0",
+    "@types/mocha":"^5.2.7",
+    "@types/node": "^12.0.8",
+    "@types/sinon":"^7.0.13",
+    "chai": "^4.2.0",
+    "mocha":"^6.1.4",
+    "sinon":"^7.3.2"
+  }
+}
