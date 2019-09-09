@@ -1,5 +1,5 @@
 # pr-bot
-Pull request merger bot from emails.
+Pull request merger bot from emails for Frontend Team.
 
 Designed to overcome Etiya's continuous merge requests from QA Engineers.
 
